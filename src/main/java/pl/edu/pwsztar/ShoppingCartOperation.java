@@ -28,4 +28,6 @@ interface ShoppingCartOperation {
 
     /** Pobiera nazwy wszystkich dostepnych produktow w koszyku */
     List<String> getProductsNames();
+
+    List<Product> getProducts();
 }
